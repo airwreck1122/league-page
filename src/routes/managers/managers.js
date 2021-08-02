@@ -1,7 +1,7 @@
 export const managers = [
-  // {
-  //   "roster": 1,  // ID of the roster that the manager manages
-  //   "name": "Your Name",
+   {
+     "roster": 3,  // ID of the roster that the manager manages
+     "name": "Eric",
   //   "tookOver": 2020, // (optional) used if a manager took over a team, delete this line or change to null otherwise
   //   "location": "Brooklyn",
   //   "bio": "Lorem ipsum...",
@@ -20,5 +20,5 @@ export const managers = [
   //   "philosophy": "Your fantasy team's philosophy",
   //   "tradingScale": 10, // 1 - 10
   //   "prefferedContact": "Text", // 'Text', 'WhatsApp', and 'Carrier Pigeon' are currently supplied in the template
-  // },
+   },
 ]
