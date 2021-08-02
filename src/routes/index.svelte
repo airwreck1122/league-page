@@ -149,8 +149,8 @@
         <div class="text">
             <h6>{leagueName}</h6>
             <p>Found in 2009 AD by the former eternally cursed commissioner Rashed Sikandar, the Elmwood Park Fantasy League began as a tournament to crowd the true champion of EP fantasy football.</p>
-	    <p>Upon release of his burden by finally capturing the brass ring held ever out of reach, the weight of the EPFL's future was shifted upon the shoulders of the 2 time back-to-back 2011 2012 champion Eric Schrumpf to transform the once oddly-specific geolocated league on ESPN into a global phenomemon as far reaching as North Carolina now hosted on the Sleeper platform</p>
-	    <p>Follow us as we continue this great legacy and honor the former champions and former friends on the path to gold</p>
+	    <p>Upon release of his burden by finally capturing the brass ring held ever out of reach, the weight of the EPFL's future was shifted upon the shoulders of the 2 time back-to-back 2011 2012 champion Eric Schrumpf to transform the once oddly-specific geolocated league on ESPN into a global phenomemon as far reaching as North Carolina now hosted on the Sleeper platform.</p>
+	    <p>Follow us as we continue this great legacy and honor the former champions and former friends on the path to gold.</p>
         </div>
         <PowerRankings />
     </div>
