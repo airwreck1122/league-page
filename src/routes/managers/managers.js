@@ -4,7 +4,7 @@ export const managers = [
      "name": "Eric",
      "tookOver": 2009, // (optional) used if a manager took over a team, delete this line or change to null otherwise
      "location": "EP",
-     "bio": "Lorem ipsum...",
+     "bio": "2 Time Back to Back 2011 2012 Champion",
      "photo": "/managers/name.jpg", // done
      "fantasyStart": 2014, // when did the manager start playing fantasy football
      "favoriteTeam": "nyj", // favorite NFL team, (follows convention: nyj, sea, mia, etc.) MUST BE LOWERCASE
