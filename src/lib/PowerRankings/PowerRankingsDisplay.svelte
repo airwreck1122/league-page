@@ -16,10 +16,11 @@
     }
 
     let week = nflState.week;
+    let hasWeeklyInfo = true
     if(week == 0) {
         week = 1;
     }
-    
+
     const rosterPowers = [];
 
     let max = 0;
@@ -40,11 +41,16 @@
             manager: currentManagers[roster.roster_id],
             powerScore: 0,
         }
-        
-        for(let i = week; i < Object.keys(rosterPlayers[0].weeklyInfo).length; i++) {
-            rosterPower.powerScore += predictScores(rosterPlayers, i, leagueData);
+
+        if (rosterPlayers[0]) {
+            for(let i = week; i < Object.keys(rosterPlayers[0].weeklyInfo).length; i++) {
+              rosterPower.powerScore += predictScores(rosterPlayers, i, leagueData);
+          }
+        } else {
+            hasWeeklyInfo = false
         }
-        if(rosterPower.powerScore > max) {
+
+        if (rosterPower.powerScore > max) {
             max = rosterPower.powerScore;
         }
         rosterPowers.push(rosterPower);
@@ -97,5 +103,7 @@
 </style>
 
 <div class="enclosure" bind:this={el}>
-    <BarChart {maxWidth} {graphs} bind:curGraph={curGraph} />
+    {#if hasWeeklyInfo}
+        <BarChart {maxWidth} {graphs} bind:curGraph={curGraph} />
+    {/if}
 </div>

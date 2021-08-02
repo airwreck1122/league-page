@@ -58,13 +58,13 @@ export const getAwards = async () => {
 			losersRes.json(),
 			winnersRes.json(),
 		]
-	
+
 		const [prevLeagueData, losersData, winnersData] = await waitForAll(...jsonPromises).catch((err) => { console.error(err); });
 
 		const year = prevLeagueData.season;
 
 		const previousRosters = rostersData.rosters;
-	
+
 		const prevManagers = {};
 
 		const numDivisions = leagueData.settings.divisions || 1;
@@ -79,7 +79,7 @@ export const getAwards = async () => {
 				points: -1
 			}
 		}
-	
+
 		for(const roster of previousRosters) {
 			const rSettings = roster.settings;
 			const div = rSettings.division ? rSettings.division : 1;
@@ -114,12 +114,12 @@ export const getAwards = async () => {
 		const finalsMatch = winnersData.filter(m => m.r == 3 && m.t1_from.w)[0];
 		const champion = prevManagers[finalsMatch.w];
 		const second = prevManagers[finalsMatch.l];
-	
+
 		const runnersUpMatch = winnersData.filter(m => m.r == 3 && m.t1_from.l)[0];
 		const third = prevManagers[runnersUpMatch.w];
 
-		const toiletBowlMatch = losersData.filter(m => m.r == 3 && m.t1_from.w)[0];
-		const toilet = prevManagers[toiletBowlMatch.w]
+		// const toiletBowlMatch = losersData.filter(m => m.r == 3 && m.t1_from.w)[0];
+		// const toilet = prevManagers[toiletBowlMatch.w]
 
 		const podium = {
 			year,
@@ -127,7 +127,7 @@ export const getAwards = async () => {
 			second,
 			third,
 			divisions: divisionArr,
-			toilet
+			// toilet
 		}
 		podiums.push(podium);
 

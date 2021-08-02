@@ -365,8 +365,8 @@
 	</div>
 
 		<!-- Toilet Bowl -->
-	<div class="toiletParent">
-		
+	<!-- <div class="toiletParent">
+
 		<img src="./toilet-banner.png" class="toilet-banner" alt="The Legends Cup" />
 
 		<div class="toiletBowl">
@@ -374,5 +374,5 @@
 			<img src="./toilet-bowl-2.png" class="toilet" alt="toilet bowl" />
 		</div>
 		<span class="genLabel">{@html getNames(toilet.name, toilet.rosterID)}</span>
-	</div>
+	</div> -->
 </div>
