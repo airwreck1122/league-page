@@ -148,12 +148,9 @@
     <div id="main">
         <div class="text">
             <h6>{leagueName}</h6>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
-            <p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
-            <p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
-            <p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+            <p>Found in 2009 AD by eternally cursed Rashed Sikandar, the Elmwood Park Fantasy League began as a tournament to crowd the true champion of EP fantasy football.</p>
+	    <p>Upon release of his burden by finally capturing the brass ring held ever out of reach, the weight of the EPFL's future was shifted upon the shoulders of the 2 time back-to-back 2011 2012 champion Eric Schrumpf to transform the once oddly-specific geolocated league on ESPN once into a global phenomemon as far reaching as North Carolina now hosted on the Sleeper platform</p>
+	    <p>Follow us as we continue this great legacy and honor the former champions and former friends</p>
         </div>
         <PowerRankings />
     </div>
