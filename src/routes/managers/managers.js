@@ -1,6 +1,6 @@
 export const managers = [
    {
-     "roster": 3,  // ID of the roster that the manager manages
+     "roster": 0,  // ID of the roster that the manager manages
      "name": "Eric",
      "tookOver": 2009, // (optional) used if a manager took over a team, delete this line or change to null otherwise
      "location": "EP",
